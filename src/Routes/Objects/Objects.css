@@ -1,0 +1,74 @@
+.my-helper-text{
+  margin-left: 20px !important;
+ }
+ .input-field{
+   position: relative;
+   margin: 20px;
+   border-radius: 5px;
+   width: 150px;
+ }
+ 
+ .input-field label{
+   position: absolute;
+   z-index: 1;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 4px;
+   padding: 2px;
+   background-color: transparent;
+   transition: all 0.2s ease-in-out;
+   top: 0;
+   border-radius: 5px;
+   font-size: 18px;
+   left: 4px;
+     background-color: white;
+  }
+ 
+ 
+  .input-field input{
+      height: 34px;
+      border-radius: 5px;
+      width: 200px;
+      font-size: 14px;
+      margin-left: 10px;
+      padding-left: 10px;
+  }
+ 
+  .input-field input:focus + label{
+    top: 0;
+    font-size: 12px;
+    left: 4px;
+      background-color: white;
+  }
+ 
+  .input-field input:focus{
+      outline: none !important;
+      border-radius: 5px;
+      padding-left: 10px;
+  }
+ 
+  .card-content{
+    margin: 30px;
+  }
+ 
+  .card {
+    margin-top: 20px;
+  }
+ 
+  .btn3 {
+    margin: 5px !important;
+    width: 105px;
+  }
+ 
+  .paper3{
+   background-color:  #e6e6e6 !important;
+   margin: 20px;
+   width: 100%;
+   height: 600px;
+ }
+ 
+ .slider3{
+   margin: 20px;
+   margin-left: 150px;
+   width:100%;
+ }
